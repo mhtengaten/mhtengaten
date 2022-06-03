@@ -35,7 +35,7 @@ async function setWeatherInformation() {
       DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-GB', {
         hour: '2-digit',
         minute: '2-digit',
-        timeZone: 'Europe/Stockholm',
+        timeZone: 'Brazil/Stockholm',
       });
     });
 }
